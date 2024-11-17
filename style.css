@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: black;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
+
+/* Navigation Bar */
+header {
+    background: blueviolet;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav ul li {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav ul li a {
+    color: #fff;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: blueviolet;
+    border-radius: 5px;
+}
+
+
+#hero {
+    background: url('https://static.vecteezy.com/system/resources/previews/000/100/574/original/free-delivery-man-vector.jpg') no-repeat center center/cover;
+    color:black;
+    text-align: center;
+    padding: 120px 10px;
+    background-size: cover;
+
+}
+
+#hero .hero-content {
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+#hero h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#hero p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.cta-btn {
+    background-color: blueviolet;
+    padding: 15px 40px;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color:blueviolet;
+}
+
+
+.background-image {
+    background: url('tps://th.binhtg.com/th/id/OIP.xHE-KXafFM6BCKcjW_yC3gHaHa?w=626&h=626&rs=1&pid=ImgDetMain') no-repeat center center/cover;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.background-image h2 {
+    font-size: 48px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.background-image p {
+    font-size: 18px;
+    color:white;
+    margin-bottom: 30px;
+}
+
+
+#delivery form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#delivery .form-group {
+    margin-bottom: 20px;
+}
+
+#delivery label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+#delivery input, #delivery textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#delivery input[type="tel"],
+#delivery input[type="email"],
+#delivery input[type="text"] {
+    background-color:white;
+}
+
+#delivery textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+#delivery button {
+    background-color: blueviolet;
+    color: black;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#delivery button:hover {
+    background-color: #e67e22;
+}
+
+
+footer {
+    background-color:blueviolet;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}

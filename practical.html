@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: 70px 1fr;
+            grid-template-rows: 30% auto 20%;
+            grid-template-areas: "header header"
+            "sidebar containt"
+            "footer footer";
+            grid-row-gap: 10px;
+            grid-column-gap: 10px;
+            height: 100vh;
+        }
+        .header_{
+            grid-area: header;
+            background-color: antiquewhite;
+        }
+        .sidebar{
+            grid-area: sidebar;
+            background-color: aqua;
+        }
+        .containt{
+            grid-area: containt;
+            background-color: brown;
+        }
+        .footer{
+            grid-area: footer;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="Lovlt professional university">Lovly professional unversity</div>
+        <div class="sidebar">Sidebar</div>
+        <div class="containt">Containt</div>
+        <div class="footer">Footer</div>
+    </div>
+</body>
+</html>

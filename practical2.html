@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width='device-width', initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .container{
+        display: grid;
+        grid-template-rows: 30% 20% 25% 15% 10%;
+        grid-template-areas:
+        "header"
+        "cont1"
+        "cont2"
+        "cont3"
+        "footer";       
+        /* grid-row-gap: 20px; */
+        border: 3px solid black;
+        border-radius: 15px;
+        height: 95vh;
+        width: 80vh;
+        margin-left: 500px;
+        margin-bottom: 10pxS;
+        
+    }
+    .header{
+        grid-area: header;
+        background-color: green;
+        margin: 10px;
+        border-radius: 5px;
+    }
+    .cont1{
+        grid-area: cont1; 
+        background-color: rgb(44, 130, 196);
+        margin: 10px;
+        border-radius: 5px;
+        padding-left:10px ;
+    }
+    .cont2{
+        grid-area: cont2;
+        background-color: yellow;
+        margin: 10px;
+        border-radius: 5px;
+        padding: 20px;
+        
+    }
+    .cont3{
+        grid-area: cont3;
+        background-color: purple;
+        margin: 10px;
+        border-radius: 5px;
+        color: white;
+        padding: 20px;
+    }
+    .footer{
+        grid-area: footer;
+        background-color: crimson;
+        margin: 10px;
+        border-radius: 5px;
+        padding: 20px;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+       <div class="header"><img src="naruto.jpg" alt="" height="170px"></div>
+       <div class="cont1">
+          <h1>john Doe</h1>
+          <span style="color: yellow;">web Developer</span>
+          <span style="color: white;">at</span>
+          <span style="color: yellow;">Tech Solutions</span>
+       </div>
+       <div class="cont2">
+                <span style="color: white;">Passionate about creating innovative web solution that enhance 
+                                               user experience and functionality experiences in html,css, Javascript
+                                               and responsive deesign.
+                </span>
+       </div>
+       <div class="cont3">
+        <span style="color: white;">
+            email:johnDoe@gmail.com <br>
+            number:9xxxxxxxx9
+        </span>
+       </div>
+       <div class="footer">
+        <span>
+            twitter and instagram
+        </span>
+       </div>
+
+
+
+
+    </div>
+    
+</body>
+</html>

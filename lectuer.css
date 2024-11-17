@@ -1,0 +1,17 @@
+h3
+{
+color: blue;
+font-size: 10px;
+}
+
+img /* This is styling image */
+{
+background-color: blue;
+width: 200px;
+height: 100px;
+margin-left: 30px;
+}
+body{
+
+background-color: blanchedalmond;
+}
